@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    padding:  0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+
+body{
+    background-color: rgba(18, 241, 100, 0.368);
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    color:black;
+    font-size: 48;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
+.search-bar{
+    margin: 1rem;
+    width: 400px;
+    height:40px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
