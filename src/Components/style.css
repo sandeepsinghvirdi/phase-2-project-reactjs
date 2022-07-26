@@ -75,3 +75,48 @@ h3{
     margin: 5px ;
 
 }
+
+.content img{
+   width: 100%;
+   height: 600px;
+  
+}
+
+.content .inner-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 5px black;
+}
+
+.recipe-details{
+    width: 70%;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients{ 
+    flex-basis: 60%;
+    text-align: justify;
+
+    
+}
+
+.instructions{
+    flex-basis: 60%;
+    text-align: justify;
+   text-orientation: sideways;
+
+}
+.ingredients h4{
+    margin: top 1.5rem;
+    font-weight: bold;
+}
